@@ -5,6 +5,19 @@ body {
     font-size: 14px;
     background-color: #E3E3E3;
 }
+.green {
+    background-color: #3AC14D;
+}
+
+.yello {
+    background-color: #E1BE28;
+}
+.yello img {
+    border-radius: 20px;
+}
+
+
+
 .header {
     width: 1000px;
     background-color: #FFFFFF;
@@ -61,14 +74,106 @@ body {
     border: none;
     height: 100%;
 }
+.yello table {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 780px;
+}
+.yello table td {
+    padding-left: 20px;
+}
+.green table {
+    width: 780px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.green table tr {
+    height: 50px;
 
 
-.footer {
+}
+
+.green table  td {
+    padding-left: 20px;
+}
+.d-text {
+    text-align: center;
+    border: none;
+    line-height: 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.text1 {
+    width: 60%;
+    border: none;
+    line-height: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #333333;
+    text-indent: 10px;
+}
+.text2 {
+    border: none;
+    line-height: 25px;
+    width: 35%;
+    color: #333;
+    text-indent: 10px;
+}
+.mail1 {
+    width: 5%;
+    text-align: center;
+    border: none;
+    line-height: 25px;
+}
+.mail2 {
+    width: 20%;
+    border: none;
+    line-height: 25px;
+    height: 27px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #333;
+}
+.d-area {
+    height: 102px;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+
+.areatext {
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60%;
+    height: 100px;
+    color: #333;
+    text-indent: 10px;
+    float: left;
+}
+
+.submit {
+    width: 38%;
+    border: none;
+    margin-left: 169px;
+    line-height: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #2D983C;
+    color: #FFFFFF;
+}
+.submit:hover {
+    background-color: #13431A;
+}
+.footer  {
     width: 1000px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
     text-align: center;
+    line-height: 50px;
 }
